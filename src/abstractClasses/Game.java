@@ -1,8 +1,10 @@
+package abstractClasses;
+import Interfaces.ScoreSystem;
 
 public abstract class Game implements ScoreSystem {
 	public static String playerName;
-	protected static int playerTotalPoints;
-	protected static int computerTotalPoints;
+	public static int playerTotalPoints;
+	public static int computerTotalPoints;
 	
 	public Game() {
 		playerTotalPoints = 0;

@@ -1,7 +1,11 @@
+package gameImplementations;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Random;
+
+import abstractClasses.Game;
+import driver.GameManager;
 
 public class TicTacToe extends Game {
 	private boolean playerTurn;

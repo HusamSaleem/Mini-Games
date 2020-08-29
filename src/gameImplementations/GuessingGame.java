@@ -1,4 +1,8 @@
+package gameImplementations;
 import java.util.Random;
+
+import abstractClasses.Game;
+import driver.GameManager;
 
 public class GuessingGame extends Game{
 

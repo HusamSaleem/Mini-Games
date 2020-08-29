@@ -1,4 +1,9 @@
+package Testing;
 import java.util.Random;
+
+import gameImplementations.GuessingGame;
+import gameImplementations.RockPaperScissors;
+import gameImplementations.TicTacToe;
 
 public class UnitTests {
 

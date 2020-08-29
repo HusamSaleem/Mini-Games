@@ -1,3 +1,4 @@
+package Interfaces;
 
 public interface ScoreSystem {
 	public void addPointToPlayer();
